@@ -1,0 +1,52 @@
+.color-span {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.color-span span {
+    width: 40px;
+    height: 6px;
+    border-radius: 4px;
+}
+
+.decidueye {
+    background: #3A7D53;
+}
+
+.tyranitar {
+    background: #6E7A3F;
+}
+
+.goodra {
+    background: #8B76C5;
+}
+
+.buttons-80x31{
+  display: flex;
+  padding: 0.4rem;
+}
+
+.buttons-80x31 div{
+  padding-right: 1rem;
+}
+
+.buttons-80x31 img{
+  image-rendering: pixelated;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main{
+  text-align: center;
+}
